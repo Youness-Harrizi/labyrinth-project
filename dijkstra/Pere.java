@@ -12,7 +12,7 @@ public class Pere implements PereInterface {
 	}
 	public void initialisePere(int n, Vertex r) {
 		// pour initialiser le tableau pere par la valeur 
-		for (int i = 0; i < array.length; i++) {
+		for (int i = 0; i < n; i++) {
 			Pere.add(r);
 			
 		}
